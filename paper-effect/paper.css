@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower); /*me permet d'introduire des éléments comme par exemple la police d'écriture Indie Flower*/
+/*parce que  mon ordi ne la possède pas de base */
+.pane
+ {
+    width: 45%;
+    height: 700px;
+    background-color: white;
+    position: relative;
+    left: 340px;
+    right: 202px;
+    background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+
+
+}
+.pain
+{
+    top: 120px;
+position: absolute; 
+left: 122px;
+font-family: 'indie Flower';/*la olice 'indie flower est celle qui correspond à une ecriture faite à la main */
+
+}
+.pane::before /*le before est là pour mettre la priorité sur ce qui sera codé comme instruction, il a généralement un rôle esthetique*/
+{
+    content:'' ; /*le content est là pour permettre d'introduire du contenu qui ne dépend pas de css*/
+background-color: red;
+position: absolute;
+left: 80px;
+height: 100%;
+width: 3px;
+}
+body
+{
+    background-color: rgb(105, 150, 218);
+
+}
+.holes /*la nom class commune à mes 3 div qui ont servi à créer les trous sur la page de cahier*/ 
+{
+position : absolute;/* pour pouvoir choisir ma position*/
+left: 370px; /*les 3 div (qui serviront de trous) sont situés à 370px de la gauche du site. Ces div n'étant pas inclus dans ceux du texte (.lines; .pane ; .pane::before ; .pain)
+il n'est pas à 370px de la gauche de l'un d'entre eux */
+height: 25px;
+width: 25px;
+background:pink ;
+border-radius: 20px;/*comme d'hab le border-radius est là pour choisir l'angle d'arrondissement des bordures. Et je ls ai suffisament arrondit pour en faire des boules*/
+}
+/* pour choisir la position des trous dans la feuille. d'ailleurs les Div qui correspondent ont 2 noms*/
+.hole-top 
+{
+    top: 90px;
+}
+.hole-middle
+{
+    top: 290px;
+}
+.hole-bottom
+{
+    top: 490px;
+}
+
+a
+{
+    /*cursor: wait; pour donner au curseur la forme d'un logo de chargement*/
+    cursor: help;/*pour donner au curseur la forme d'un d'interrogation à coté du la fleche*/
+}
