@@ -1,0 +1,23 @@
+.fot
+{
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fot h1
+{
+font-size: 80px;
+}
+.home
+{
+    color: #fff !important;
+    background-color: rgb(27, 201, 27);
+    padding: 12px;
+    margin: 20px 0;
+    border-radius: 22px 22px;
+    display: inline-block;
+}
+a:hover {
+    color: darkgoldenrod !important;
+}
