@@ -1,0 +1,179 @@
+body
+{
+    background-color:black;
+}
+.fond
+{
+    position: absolute;
+    left: 20%;
+    border-radius: 10px ;  
+} 
+    
+.carte 
+{
+    position: absolute;
+    left: 250px;  
+}
+.carte img /* rappel : là j'ai directement acces à l'image à l'image à l'interieure*/
+{
+    border: white;
+    border-radius: 35px;
+}
+.icone2
+{
+   position: absolute;
+    bottom:150px;
+    left : 30px;
+    display: flex;
+    justify-content: center;
+   
+}
+.icone2 a
+{
+    margin-right: 30px;
+}
+
+.icone2 :hover
+{
+ opacity: 0.9;
+}
+nav
+{
+    width: 500px;
+    height: 50px;
+    position :absolute;
+    bottom: 790px;
+    border-radius:35px 35px 0px 0px ;/*rappel : chaque valeur correspond à un angle de la zone (superieur gauche, superieur droit, inferieur droit, inferieur gauche)*/
+}
+
+.bas
+{
+    position: absolute;
+    bottom: 30px;
+    right: 200px;
+}
+.bas2
+{
+    position: absolute;
+    bottom: 30px;
+    right: 360px;
+}
+.bas3
+{
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+}
+.position
+{
+    position :absolute;
+    left: 364px;
+    bottom: 7px;
+}
+.icone1
+{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+.icone1 span
+{
+    font-size: x-large;
+    position: absolute;
+    right: 145px;
+    bottom: 2px;
+    color: rgb(29, 26, 26);
+}
+a
+{
+cursor: wait;
+}body
+{
+    background-color:black;
+}
+.fond
+{
+    position: absolute;
+    left: 20%;
+    border-radius: 10px ;  
+} 
+    
+.carte 
+{
+    position: absolute;
+    left: 250px;  
+}
+.carte img /* rappel : là j'ai directement acces à l'image à l'image à l'interieure*/
+{
+    border: white;
+    border-radius: 35px;
+}
+.icone2
+{
+   position: absolute;
+    bottom:150px;
+    left : 30px;
+    display: flex;
+    justify-content: center;
+   
+}
+.icone2 a
+{
+    margin-right: 30px;
+}
+
+.icone2 :hover
+{
+ opacity: 0.9;
+}
+nav
+{
+    width: 500px;
+    height: 50px;
+    position :absolute;
+    bottom: 790px;
+    border-radius:35px 35px 0px 0px ;/*rappel : chaque valeur correspond à un angle de la zone (superieur gauche, superieur droit, inferieur droit, inferieur gauche)*/
+}
+
+.bas
+{
+    position: absolute;
+    bottom: 30px;
+    right: 200px;
+}
+.bas2
+{
+    position: absolute;
+    bottom: 30px;
+    right: 360px;
+}
+.bas3
+{
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+}
+.position
+{
+    position :absolute;
+    left: 364px;
+    bottom: 7px;
+}
+.icone1
+{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+.icone1 span
+{
+    font-size: x-large;
+    position: absolute;
+    right: 145px;
+    bottom: 2px;
+    color: rgb(29, 26, 26);
+}
+a
+{
+cursor: wait;
+}
