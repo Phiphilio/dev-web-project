@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lessons-1</title>
+      <meta charset="utf_8">
+      <link rel="stylesheet" href="#">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <nav class="col navbar navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand">
+                            <img src="logo.png" width="40px" height="30px">info school</a>
+                                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content"><!--data-toggle et data-target permettent de cibler le bon div sans avoir à utiliser javascrpit-->
+                                     <span class="navbar-toggler-icon"></span>
+                                  </button>
+                                 <div id="content" class="collapse navbar-collapse"><!--le div qui contient les liens de navigation est la cible de data-toggle et data-target-->
+                                    <ul class="navbar-nav list-inline">
+                                    <li class="nav-item "><a class="nav-link" href="formation.html">accueil</a></li>
+                                    <li class="nav-item active"><a class="nav-link" href="lessons.html">cours</a></li>
+                                  </ul>
+                          </div>
+                </nav>
+            </div>
+        </div>
+        </div>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <h5>prérequis</h5>
+                <p> Bases en css. si vous ne les maitrisez pas, suivez ce cours :<a class="alert-link" href="#"> Apprenez a creer votre site web en HTML5 & CSS3</a></p>
+                <button type="button" class="close" data-dismiss="alert" aria-label="close">
+                    <span aria-hidden="true">x</span>
+                </button>
+            </div>
+        <div class="container">
+        <div class="row">
+                <div class="col">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <!--embed-responsive pour rendre ça responsive par défaut-->
+                        <!--et le embed-responsive-16by9 est là pour choisir le format de la vidéo et c'est donc logique qu'il soit dans le div vu que ce dernier limite sa place-->
+                    <iframe src="https://www.youtube.com/embed/lOox4UJVFb4"  class="embed-responsive-item"
+                    allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <form>
+                    <div class="form-group"> <!--la class = "form-group" permet de créer des zone réservées à un champ précis du formulaire comme (la zone d'heure, celle d'une nom, etc)-->
+                        <label for="timeInput">Temps :</label> <!--le label est là pour nous donner le nom du champ-->
+                        <input type="text" class="form-control" placeholder="mm : ss" id="heure">
+                    </div>
+                    <div class="form-group">
+                        <label for="note" >Note de cours</label>
+                        <textearea class="form-control" id="note" row="5" required> text</textearea>
+                    </div>
+                    <div class="form-group">
+                         <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="publicCheck">
+                            <label class="form-check-label" for="gridCheck"> rendre cette notation publique</label>
+                            <!--<button type="button" class="btn btn-success">déposer</button> voilà un boutton créer grâce à l'attribut bouton-->
+                            <a class="btn btn-success"href="#" role="button" style="position: absolute; top: 50px; right: 80px;">déposer</a><!--bouton fait avec l'attribut <a>-->
+                         </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </body>
+</html>
